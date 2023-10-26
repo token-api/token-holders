@@ -1,12 +1,10 @@
-''' 
-This Python script fetches and visualizes historical token holder data with 
-balances greater than 1,000,000 for two Ethereum-based tokens: USDC and USDT. 
-It utilizes Bitquery's GraphQL API to fetch data, and Matplotlib for plotting. 
-The data is collected for the past 30 days and presented in two separate subplots for each token.
 
-To explore more blockchain data and gain deeper insights, 
-sign up for Bitquery at https://ide.bitquery.io/streaming#utm_source=github&utm_medium=token_api_org&utm_campaign=token_holders_api.
-'''
+# This Python script fetches and visualizes historical token holder data with 
+# balances greater than 1,000,000 for two Ethereum-based tokens: USDC and USDT. 
+# It utilizes Bitquery's GraphQL API to fetch data, and Matplotlib for plotting. 
+# The data is collected for the past 30 days and presented in two separate subplots for each token.
+
+# Replace 'graphql_endpoint' with your GraphQL endpoint and consider signing up for Bitquery to access the API.
 
 import requests
 import matplotlib.pyplot as plt
